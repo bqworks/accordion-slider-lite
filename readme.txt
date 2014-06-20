@@ -11,28 +11,30 @@ Fully responsive and touch-enabled accordion slider plugin for WordPress.
 
 == Description ==
 
-Accordion Slider combines the look and functionality of a slider with that of an accordion. The Lite version of Accordion Slider allows you to create simple image sliders which are fully responsive and mobile-friendly.
+https://www.youtube.com/watch?v=a5oQ1EP3rGE
 
-Available features in the Lite version:
+Accordion Slider combines the look and functionality of a slider with that of an accordion. The lite version of Accordion Slider allows you to create simple image sliders which are fully responsive and mobile-friendly.
+
+Available features in the lite version:
 
 * Fully responsive
 * Touch support
 * Clean and intuitive admin interface
 * Preview accordion sliders directly in the admin area
+* Drag and drop panel sorting
 * Inline information for the admin setting
-* Publish in any post (including pages and custom post types), in PHP code, and widget areas
-* Accordion sliders are automatically cached for better load times
+* Publish accordion sliders in any post (including pages and custom post types), in PHP code, and widget areas
+* Caching system for quick loading times
+* Optimized file loading. The JavaScript and CSS files are loaded only in pages where there are accordion sliders
 * Add links to images
 * Keyboard navigation
 * Mouse wheel navigation
 * SEO-friendly
 * Multisite support
 * Unlimited panels in an accordion slider and unlimited accordion sliders
-* No ads or donate buttons.
+* Localized for translation
+* No ads
 
-Here is a video tutorial that demonstrates how easy it is to create and publish accordion sliders:
-
-https://www.youtube.com/watch?v=a5oQ1EP3rGE
 
 If you need more features or simply want to support the development of the Accordion Slider plugin, you can upgrade to the full version. You can read more about the full version of Accordion Slider [here](http://bqworks.com/accordion-slider/).
 
@@ -48,7 +50,7 @@ Additional features in the full version:
 * Swap image when the panel is opened
 * Breakpoints for changing the accordion slider's settings at different screen sizes
 * Action and filter hooks
-* Import and export accordion slider instances
+* Import and export accordion sliders
 
 These videos demonstrate the full capabilities of the plugin: 
 
@@ -71,13 +73,13 @@ To publish accordion sliders:
 
 Copy the [accordion_slider id="1"] shortcode in the post or page where you want the accordion to appear. You can also insert it in PHP code by using <?php do_shortcode( '[accordion_slider id="1"]' ); ?>, or in the widgets area by using the built-in Accordion Slider widget.
 
-Short usage demonstration:
+Short video demonstration:
 
 https://www.youtube.com/watch?v=a5oQ1EP3rGE
 
 == Frequently Asked Questions ==
 
-If you have questions about how to work with the plugin, please see this short demonstration:
+If you have questions about how to work with the plugin, please see this short video demonstration:
 
 https://www.youtube.com/watch?v=a5oQ1EP3rGE
 
@@ -98,4 +100,4 @@ When you select an image from the Media Library, in the right columns, under 'AT
 == Changelog ==
 
 = 1.0.8 =
-* The lite version of Accordion Slider is released
+* release of the lite version
