@@ -2,8 +2,8 @@
 Contributors: bqworks
 Tags: accordion slider, responsive slider, responsive accordion, touch slider, accordion, slider, images, image slider, image accordion, plugin, widget, wordpress slider, wordpress accordion, responsive wordpress slider, responsive wordpress accordion, shortcode, slider plugin, accordion plugin, touch swipe
 Requires at least: 3.6
-Tested up to: 3.9.1
-Stable tag: 1.0.8
+Tested up to: 4.1
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -61,7 +61,7 @@ https://www.youtube.com/watch?v=qmjgtmeLrzs&list=PLh-6IaZNuPo58lYbFPNV_nOzKYoOwH
 To install the plugin:
 
 1. Install the plugin through Plugins > Add New > Upload or by copying the unzipped package to wp-content/plugins/.
-2. Activate the Accordion Slider plugin through the 'Plugins' menu in WordPress.
+2. Activate the Accordion Slider plugin through the 'Plugins > Installed Plugins' menu in WordPress.
 
 To create accordion sliders:
 
@@ -99,5 +99,5 @@ When you select an image from the Media Library, in the right columns, under 'AT
 
 == Changelog ==
 
-= 1.0.8 =
+= 1.1 =
 * release of the lite version
