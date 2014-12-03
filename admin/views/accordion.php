@@ -1,5 +1,5 @@
 <div class="wrap accordion-slider-admin">
-	<h2><?php echo isset( $_GET['action'] ) && $_GET['action'] === 'edit' ? __( 'Edit Accordion', 'accordion-slider' ) : __( 'Add New Accordion', 'accordion-slider' ); ?></h2>
+	<h2><?php echo isset( $_GET['action'] ) && $_GET['action'] === 'edit' ? __( 'Edit Accordion', 'accordion-slider-lite' ) : __( 'Add New Accordion', 'accordion-slider-lite' ); ?></h2>
 
 	<form action="" method="post">
     	<div class="metabox-holder has-right-sidebar">
@@ -23,16 +23,16 @@
 	                    ?>
                     </div>
 
-                    <a class="button add-panel" href="#"><?php _e( 'Add Panels', 'accordion-slider' ); ?></a>
+                    <a class="button add-panel" href="#"><?php _e( 'Add Panels', 'accordion-slider-lite' ); ?></a>
                 </div>
             </div>
 
             <div class="inner-sidebar meta-box-sortables ui-sortable">
 				<div class="postbox action">
 					<div class="inside">
-						<input type="submit" name="submit" class="button-primary" value="<?php echo isset( $_GET['action'] ) && $_GET['action'] === 'edit' ? __( 'Update', 'accordion-slider' ) : __( 'Create', 'accordion-slider' ); ?>" />
+						<input type="submit" name="submit" class="button-primary" value="<?php echo isset( $_GET['action'] ) && $_GET['action'] === 'edit' ? __( 'Update', 'accordion-slider-lite' ) : __( 'Create', 'accordion-slider-lite' ); ?>" />
                         <span class="spinner update-spinner"></span>
-						<a class="button preview-accordion" href="#"><?php _e( 'Preview', 'accordion-slider' ); ?></a>
+						<a class="button preview-accordion" href="#"><?php _e( 'Preview', 'accordion-slider-lite' ); ?></a>
                         <span class="spinner preview-spinner"></span>
 					</div>
 				</div>

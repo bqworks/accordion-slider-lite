@@ -129,18 +129,18 @@ class BQW_Accordion_Slider_Lite_Admin {
 			wp_localize_script( $this->plugin_slug . '-admin-script', 'as_js_vars', array(
 				'admin' => admin_url( 'admin.php' ),
 				'ajaxurl' => admin_url( 'admin-ajax.php' ),
-				'plugin' => plugins_url( 'accordion-slider' ),
+				'plugin' => plugins_url( 'accordion-slider-lite' ),
 				'page' => isset( $_GET['page'] ) && ( $_GET['page'] === 'accordion-slider-lite-new' || ( isset( $_GET['id'] ) && isset( $_GET['action'] ) && $_GET['action'] === 'edit' ) ) ? 'single' : 'all',
 				'id' => $id,
 				'lad_nonce' => wp_create_nonce( 'load-accordion-data' . $id ),
 				'sa_nonce' => wp_create_nonce( 'save-accordion' . $id ),
-				'no_image' => __( 'Click to add image', 'accordion-slider' ),
-				'accordion_delete' => __( 'Are you sure you want to delete this accordion?', 'accordion-slider' ),
-				'panel_delete' => __( 'Are you sure you want to delete this panel?', 'accordion-slider' ),
-				'yes' => __( 'Yes', 'accordion-slider' ),
-				'cancel' => __( 'Cancel', 'accordion-slider' ),
-				'accordion_update' => __( 'Accordion slider updated.', 'accordion-slider' ),
-				'accordion_create' => __( 'Accordion slider created.', 'accordion-slider' )
+				'no_image' => __( 'Click to add image', 'accordion-slider-lite' ),
+				'accordion_delete' => __( 'Are you sure you want to delete this accordion?', 'accordion-slider-lite' ),
+				'panel_delete' => __( 'Are you sure you want to delete this panel?', 'accordion-slider-lite' ),
+				'yes' => __( 'Yes', 'accordion-slider-lite' ),
+				'cancel' => __( 'Cancel', 'accordion-slider-lite' ),
+				'accordion_update' => __( 'Accordion slider updated.', 'accordion-slider-lite' ),
+				'accordion_create' => __( 'Accordion slider created.', 'accordion-slider-lite' )
 			) );
 		}
 	}

@@ -4,12 +4,12 @@
 	<table class="widefat accordions-list">
 		<thead>
 			<tr>
-				<th><?php _e( 'ID', 'accordion-slider' ); ?></th>
-				<th><?php _e( 'Name', 'accordion-slider' ); ?></th>
-				<th><?php _e( 'Shortcode', 'accordion-slider' ); ?></th>
-				<th><?php _e( 'Created', 'accordion-slider' ); ?></th>
-				<th><?php _e( 'Modified', 'accordion-slider' ); ?></th>
-				<th><?php _e( 'Actions', 'accordion-slider' ); ?></th>
+				<th><?php _e( 'ID', 'accordion-slider-lite' ); ?></th>
+				<th><?php _e( 'Name', 'accordion-slider-lite' ); ?></th>
+				<th><?php _e( 'Shortcode', 'accordion-slider-lite' ); ?></th>
+				<th><?php _e( 'Created', 'accordion-slider-lite' ); ?></th>
+				<th><?php _e( 'Modified', 'accordion-slider-lite' ); ?></th>
+				<th><?php _e( 'Actions', 'accordion-slider-lite' ); ?></th>
 			</tr>
 		</thead>
 		
@@ -22,7 +22,7 @@
 				
 				if ( count( $accordions ) === 0 ) {
 					echo '<tr class="no-accordion-row">' .
-							 '<td colspan="100%">' . __( 'You don\'t have saved accordions.', 'accordion-slider' ) . '</td>' .
+							 '<td colspan="100%">' . __( 'You don\'t have saved accordions.', 'accordion-slider-lite' ) . '</td>' .
 						 '</tr>';
 				} else {
 					foreach ( $accordions as $accordion ) {
@@ -39,17 +39,17 @@
 		
 		<tfoot>
 			<tr>
-				<th><?php _e( 'ID', 'accordion-slider' ); ?></th>
-				<th><?php _e( 'Name', 'accordion-slider' ); ?></th>
-				<th><?php _e( 'Shortcode', 'accordion-slider' ); ?></th>
-				<th><?php _e( 'Created', 'accordion-slider' ); ?></th>
-				<th><?php _e( 'Modified', 'accordion-slider' ); ?></th>
-				<th><?php _e( 'Actions', 'accordion-slider' ); ?></th>
+				<th><?php _e( 'ID', 'accordion-slider-lite' ); ?></th>
+				<th><?php _e( 'Name', 'accordion-slider-lite' ); ?></th>
+				<th><?php _e( 'Shortcode', 'accordion-slider-lite' ); ?></th>
+				<th><?php _e( 'Created', 'accordion-slider-lite' ); ?></th>
+				<th><?php _e( 'Modified', 'accordion-slider-lite' ); ?></th>
+				<th><?php _e( 'Actions', 'accordion-slider-lite' ); ?></th>
 			</tr>
 		</tfoot>
 	</table>
     
     <div class="new-accordion-buttons">
-		<a class="button-secondary" href="<?php echo admin_url( 'admin.php?page=accordion-slider-lite-new' ); ?>"><?php _e( 'Create New Accordion', 'accordion-slider' ); ?></a>
+		<a class="button-secondary" href="<?php echo admin_url( 'admin.php?page=accordion-slider-lite-new' ); ?>"><?php _e( 'Create New Accordion', 'accordion-slider-lite' ); ?></a>
     </div>
 </div>

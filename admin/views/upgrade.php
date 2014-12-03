@@ -1,5 +1,5 @@
 <div class="wrap accordion-slider-admin accordion-slider-upgrade">
-	<h2><?php _e( 'Upgrade to Full Version', 'accordion-slider' ); ?></h2>
+	<h2><?php _e( 'Upgrade to Full Version', 'accordion-slider-lite' ); ?></h2>
     <p>If you need more features or simply want to support the development of the Accordion Slider plugin, you can upgrade to the full version.</p>
     
     <p><a href="http://codecanyon.net/item/accordion-slider-responsive-wordpress-plugin/7788530?ref=bqworks">Buy the full version for only $20 &rarr;</a></p>

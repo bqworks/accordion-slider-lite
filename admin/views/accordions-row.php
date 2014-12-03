@@ -15,9 +15,9 @@
 	<td><?php echo $accordion_created; ?></td>
 	<td><?php echo $accordion_modified; ?></td>
 	<td>
-		<a href="<?php echo $edit_url; ?>"><?php _e( 'Edit', 'accordion-slider' ); ?></a> |
-		<a class="preview-accordion" href="<?php echo $preview_url; ?>"><?php _e( 'Preview', 'accordion-slider' ); ?></a> |
-		<a class="delete-accordion" href="<?php echo $delete_url; ?>"><?php _e( 'Delete', 'accordion-slider' ); ?></a> |
-		<a class="duplicate-accordion" href="<?php echo $duplicate_url; ?>"><?php _e( 'Duplicate', 'accordion-slider' ); ?></a>
+		<a href="<?php echo $edit_url; ?>"><?php _e( 'Edit', 'accordion-slider-lite' ); ?></a> |
+		<a class="preview-accordion" href="<?php echo $preview_url; ?>"><?php _e( 'Preview', 'accordion-slider-lite' ); ?></a> |
+		<a class="delete-accordion" href="<?php echo $delete_url; ?>"><?php _e( 'Delete', 'accordion-slider-lite' ); ?></a> |
+		<a class="duplicate-accordion" href="<?php echo $duplicate_url; ?>"><?php _e( 'Duplicate', 'accordion-slider-lite' ); ?></a>
 	</td>
 </tr>
