@@ -99,5 +99,8 @@ When you select an image from the Media Library, in the right columns, under 'AT
 
 == Changelog ==
 
+= 1.1.1 =
+* some bug fixes
+
 = 1.1 =
 * release of the lite version
