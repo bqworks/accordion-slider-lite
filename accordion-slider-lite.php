@@ -4,7 +4,7 @@
 	Plugin Name: Accordion Slider Lite
 	Plugin URI:  http://bqworks.net/accordion-slider/
 	Description: Responsive and touch-enabled accordion slider. The lite version.
-	Version:     1.1.1
+	Version:     1.3
 	Author:      bqworks
 	Author URI:  http://bqworks.com
 */
