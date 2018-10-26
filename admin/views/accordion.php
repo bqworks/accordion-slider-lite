@@ -9,6 +9,11 @@
                     	<input name="name" id="title" type="text" value="<?php echo esc_attr( $accordion_name ); ?>" />
                     </div>
 					
+                    <div class="image-size-warning">
+                        <p><?php _e( 'Some of the background images are smaller than the size of the panel, so they might appear blurred when viewed in the accordion.', 'accordion-slider-lite' ); ?></p>
+                        <p><?php _e( 'When you select images to insert them into the panels, you can set their size from the right column of the Media Library window, as you can see in <a href="https://www.youtube.com/watch?v=qmjgtmeLrzs" target="_blank">this video</a> at 0:05.', 'accordion-slider-lite' ); ?></p>
+                    </div>
+
 					<div class="panels-container">
                     	<?php
                     		if ( isset( $panels ) ) {

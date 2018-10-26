@@ -77,12 +77,16 @@
 			this.initPanels();
 
 			if ( parseInt( as_js_vars.id, 10 ) !== -1 ) {
-				this.loadAccordionData();
+				this.loadAccordionData( function() {
+					that.checkBackgroundImageSize();
+				});
 			}
 
 			$( 'form' ).on( 'submit', function( event ) {
 				event.preventDefault();
 				that.saveAccordion();
+
+				that.checkBackgroundImageSize();
 			});
 
 			$( '.preview-accordion' ).on( 'click', function( event ) {
@@ -173,7 +177,7 @@
 		 *
 		 * @since 1.0.0
 		 */
-		loadAccordionData: function() {
+		loadAccordionData: function( callback ) {
 			var that = this;
 
 			$( '.panel-spinner' ).css( { 'display': 'inline-block', 'visibility': 'visible' } );
@@ -203,6 +207,8 @@
 					});
 
 					$( '.panel-spinner' ).css( { 'display': '', 'visibility': '' } );
+
+					callback();
 				}
 			});
 		},
@@ -616,6 +622,8 @@
 
 							that.initPanel( panel, { background: images[ index ], layers: {}, html: '', settings: {} } );
 						});
+
+						AccordionSliderAdmin.checkBackgroundImageSize();
 					}
 				});
 			});
@@ -670,6 +678,44 @@
 					image.css( { width: '100%', height: 'auto' } );
 				}
 			});
+		},
+
+		/**
+		 * Check the size of the background images and, if they are smaller than the size
+		 * of the accordion, display a warning.
+		 *
+		 * Only check images that have a non-zero width and height.
+		 *
+		 * @since 1.4.0
+		 */
+		checkBackgroundImageSize: function() {
+			if ( $( '.image-size-warning' ).length === 0 ) {
+				return;
+			}
+ 
+			var showWarning = false,
+				accordionWidth = $( '.sidebar-settings' ).find( '.setting[name="width"]' ).val(),
+				accordionHeight = $( '.sidebar-settings' ).find( '.setting[name="height"]' ).val(),
+				orientation = $( '.sidebar-settings' ).find( '.setting[name="orientation"]' ).val();
+
+			$.each( this.panels, function( index, panel ) {
+				var image = panel.getData( 'background' );
+
+				if ( parseInt( image[ 'background_width' ], 10 ) === 0 || parseInt( image[ 'background_height' ], 10 ) === 0 ) {
+					return;
+				}
+				
+				if ( ( orientation === 'vertical' && isNaN( accordionWidth ) === false && parseInt( image[ 'background_width' ], 10 ) < parseInt( accordionWidth, 10 ) ) ||
+					( orientation === 'horizontal' && isNaN( accordionHeight ) === false && parseInt( image[ 'background_height' ], 10 ) < parseInt( accordionHeight, 10 ) ) ) {
+					showWarning = true;
+				}
+			} );
+ 
+			if ( showWarning === true ) {
+				$( '.image-size-warning' ).css( 'display', 'block' );
+			} else {
+				$( '.image-size-warning' ).css( 'display', '' );
+			}
 		}
 	};
 
@@ -719,6 +765,8 @@
 
 					that.setData( 'background', { background_source: image.url, background_alt: image.alt, background_title: image.title, background_width: image.width, background_height: image.height, background_link: image.link } );
 					that.updatePanelPreview();
+
+					AccordionSliderAdmin.checkBackgroundImageSize();
 				});
 			});
 
