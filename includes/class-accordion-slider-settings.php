@@ -275,17 +275,6 @@ class BQW_Accordion_Slider_Lite_Settings {
 					'default_value' => 50,
 					'description' => __( 'Sets how sensitive the accordion will be to mouse wheel input. Lower values indicate stronger sensitivity.', 'accordion-slider-lite' )
 				),
-				'mouse_wheel_target' => array(
-					'js_name' => 'mouseWheelTarget',
-					'label' => __( 'Mouse Wheel Target', 'accordion-slider-lite' ),
-					'type' => 'select',
-					'default_value' => 'panel',
-					'available_values' => array(
-						'panel' => __( 'Panel', 'accordion-slider-lite' ),
-						'page' => __( 'Page', 'accordion-slider-lite' )
-					),
-					'description' => __( 'Sets what elements will be targeted by the mouse wheel input. Can be set to \'Panel\' or \'Page\'. Setting it to \'Panel\' will indicate that the panels will be scrolled, while setting it to \'Page\' indicate that the pages will be scrolled.', 'accordion-slider-lite' )
-				),
 
 				'keyboard' => array(
 					'js_name' => 'keyboard',
@@ -294,25 +283,12 @@ class BQW_Accordion_Slider_Lite_Settings {
 					'default_value' => true,
 					'description' => __( 'Indicates if the accordion will respond to keyboard input.', 'accordion-slider-lite' )
 				),
-
 				'keyboard_only_on_focus' => array(
 					'js_name' => 'keyboardOnlyOnFocus',
 					'label' => __( 'Keyboard Only On Focus', 'accordion-slider-lite' ),
 					'type' => 'boolean',
 					'default_value' => false,
 					'description' => __( 'Indicates if the accordion will respond to keyboard input only if the accordion has focus.', 'accordion-slider-lite' )
-				),
-
-				'keyboard_target' => array(
-					'js_name' => 'keyboardTarget',
-					'label' => __( 'Keyboard Target', 'accordion-slider-lite' ),
-					'type' => 'select',
-					'default_value' => 'panel',
-					'available_values' => array(
-						'panel' => __( 'Panel', 'accordion-slider-lite' ),
-						'page' => __( 'Page', 'accordion-slider-lite' )
-					),
-					'description' => __( 'Sets what elements will be targeted by the keyboard input. Can be set to \'Panel\' or \'Page\'. Setting it to \'Panel\' will indicate that the panels will be scrolled, while setting it to \'Page\' indicate that the pages will be scrolled.', 'accordion-slider-lite' )
 				)
 			);
 
@@ -379,8 +355,7 @@ class BQW_Accordion_Slider_Lite_Settings {
 					'label' => __( 'Mouse Wheel', 'accordion-slider-lite' ),
 					'list' => array(
 						'mouse_wheel',
-						'mouse_wheel_sensitivity',
-						'mouse_wheel_target'
+						'mouse_wheel_sensitivity'
 					)
 				),
 
@@ -388,8 +363,7 @@ class BQW_Accordion_Slider_Lite_Settings {
 					'label' => __( 'Keyboard', 'accordion-slider-lite' ),
 					'list' => array(
 						'keyboard',
-						'keyboard_only_on_focus',
-						'keyboard_target'
+						'keyboard_only_on_focus'
 					)
 				)
 			);
