@@ -18,6 +18,7 @@ Single accordion page
 ----------------------------------------------------------------------*/
 .accordion-slider-admin #titlediv {
 	margin-right: 2%;
+	margin-bottom: 10px;
 }
 
 .accordion-slider-admin .metabox-holder {
