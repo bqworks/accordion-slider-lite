@@ -1,9 +1,9 @@
 === Accordion Slider ===
 Contributors: bqworks
-Tags: accordion slider, responsive slider, responsive accordion, touch slider, accordion, slider, images, image slider, image accordion, plugin, widget, wordpress slider, wordpress accordion, responsive wordpress slider, responsive wordpress accordion, shortcode, slider plugin, accordion plugin, touch swipe
+Tags: accordion slider, responsive slider, responsive accordion, accordion, slider, images, image slider, image accordion, plugin, widget, wordpress slider, wordpress accordion, responsive wordpress slider, responsive wordpress accordion, slider plugin, accordion plugin
 Requires at least: 3.6
-Tested up to: 4.6
-Stable tag: 1.3
+Tested up to: 5.0
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -98,6 +98,12 @@ When you select an image from the Media Library, in the right columns, under 'AT
 3. The preview window in the admin area.
 
 == Changelog ==
+
+= 1.4 =
+* fix compatibility with Gutenberg
+* fix widget parent constructor call
+* display a warning if the image size is smaller than the slide size
+* other fixes and improvements
 
 = 1.3 =
 * fixed missing arrows in admin sidebar panels
