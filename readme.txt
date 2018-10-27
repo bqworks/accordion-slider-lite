@@ -1,6 +1,6 @@
 === Accordion Slider ===
 Contributors: bqworks
-Tags: accordion slider, responsive slider, responsive accordion, accordion, slider, images, image slider, image accordion, plugin, widget, wordpress slider, wordpress accordion, responsive wordpress slider, responsive wordpress accordion, slider plugin, accordion plugin
+Tags: accordion slider, responsive slider, responsive accordion, image accordion, accordion plugin
 Requires at least: 3.6
 Tested up to: 5.0
 Stable tag: 1.4
