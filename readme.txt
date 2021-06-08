@@ -2,16 +2,14 @@
 Contributors: bqworks
 Tags: accordion slider, responsive slider, responsive accordion, image accordion, accordion plugin
 Requires at least: 3.6
-Tested up to: 5.0
-Stable tag: 1.4
+Tested up to: 5.8
+Stable tag: 1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Fully responsive and touch-enabled accordion slider plugin for WordPress.
 
 == Description ==
-
-https://www.youtube.com/watch?v=a5oQ1EP3rGE
 
 Accordion Slider combines the look and functionality of a slider with that of an accordion. The lite version of Accordion Slider allows you to create simple image sliders which are fully responsive and mobile-friendly.
 
@@ -36,7 +34,7 @@ Available features in the lite version:
 * No ads
 
 
-If you need more features or simply want to support the development of the Accordion Slider plugin, you can upgrade to the full version. You can read more about the full version of Accordion Slider [here](http://bqworks.net/accordion-slider/).
+If you need more features, you can upgrade to the full version, which is now free and available for download at [http://bqworks.net/accordion-slider/](http://bqworks.net/accordion-slider/).
 
 Additional features in the full version:
 
@@ -52,9 +50,7 @@ Additional features in the full version:
 * Action and filter hooks
 * Import and export accordion sliders
 
-These videos demonstrate the full capabilities of the plugin: 
-
-https://www.youtube.com/watch?v=qmjgtmeLrzs&list=PLh-6IaZNuPo58lYbFPNV_nOzKYoOwHBKG
+[These videos](http://bqworks.net/accordion-slider/screencasts/) demonstrate the full capabilities of the plugin.
 
 == Installation ==
 
@@ -73,15 +69,7 @@ To publish accordion sliders:
 
 Copy the [accordion_slider id="1"] shortcode in the post or page where you want the accordion to appear. You can also insert it in PHP code by using <?php do_shortcode( '[accordion_slider id="1"]' ); ?>, or in the widgets area by using the built-in Accordion Slider widget.
 
-Short video demonstration:
-
-https://www.youtube.com/watch?v=a5oQ1EP3rGE
-
 == Frequently Asked Questions ==
-
-If you have questions about how to work with the plugin, please see this short video demonstration:
-
-https://www.youtube.com/watch?v=a5oQ1EP3rGE
 
 = How can I add links to the images in the accordion slider? =
 
@@ -98,6 +86,11 @@ When you select an image from the Media Library, in the right columns, under 'AT
 3. The preview window in the admin area.
 
 == Changelog ==
+
+= 1.5 =
+* fix styling for sidebar panels
+* update the upgrade text
+* update the website address
 
 = 1.4 =
 * fix compatibility with Gutenberg
