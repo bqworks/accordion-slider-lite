@@ -18,7 +18,7 @@
         <li>Action and filter hooks</li>
     </ul>
     
-    <p>You can see some examples and read more about the available features at <a href="http://bqworks.com/accordion-slider/">http://bqworks.com/accordion-slider/</a>.</p>
+    <p>You can see some examples and read more about the available features at <a href="http://bqworks.net/accordion-slider/">http://bqworks.net/accordion-slider/</a>.</p>
     <p>Also, you can check out the <a href="https://www.youtube.com/watch?v=qmjgtmeLrzs&list=PLh-6IaZNuPo58lYbFPNV_nOzKYoOwHBKG">video tutorials</a> to understand better how the plugin works.</p>
     
     <p><a href="http://codecanyon.net/item/accordion-slider-responsive-wordpress-plugin/7341927">Buy the full version for only $22 &rarr;</a></p>

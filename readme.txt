@@ -36,7 +36,7 @@ Available features in the lite version:
 * No ads
 
 
-If you need more features or simply want to support the development of the Accordion Slider plugin, you can upgrade to the full version. You can read more about the full version of Accordion Slider [here](http://bqworks.com/accordion-slider/).
+If you need more features or simply want to support the development of the Accordion Slider plugin, you can upgrade to the full version. You can read more about the full version of Accordion Slider [here](http://bqworks.net/accordion-slider/).
 
 Additional features in the full version:
 

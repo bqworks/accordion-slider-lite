@@ -6,7 +6,7 @@
 	Description: Responsive and touch-enabled accordion slider. The lite version.
 	Version:     1.4
 	Author:      bqworks
-	Author URI:  http://bqworks.com
+	Author URI:  http://bqworks.net
 */
 
 // if the file is called directly, abort
