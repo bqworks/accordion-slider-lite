@@ -1,10 +1,8 @@
 <div class="wrap accordion-slider-admin accordion-slider-upgrade">
 	<h2><?php _e( 'Upgrade to Full Version', 'accordion-slider-lite' ); ?></h2>
-    <p>If you need more features or simply want to support the development of the Accordion Slider plugin, you can upgrade to the full version.</p>
+    <p>If you need more features, you can upgrade to the full version, which is now free and available for download at <a href="http://bqworks.net/accordion-slider/">http://bqworks.net/accordion-slider/</a>.</p>
     
-    <p><a href="http://codecanyon.net/item/accordion-slider-responsive-wordpress-plugin/7341927">Buy the full version for only $22 &rarr;</a></p>
-    
-    <p>Some of the available features are:</p>
+    <p>Some of the features available in the full version are:</p>
     <ul>
         <li>Animated and static layers, which can contain text, images or any HTML content</li>
         <li>Load images and content automatically, from posts, galleries and Flickr</li>
@@ -17,9 +15,4 @@
         <li>Breakpoints for changing the accordion slider's settings at different screen sizes</li>
         <li>Action and filter hooks</li>
     </ul>
-    
-    <p>You can see some examples and read more about the available features at <a href="http://bqworks.net/accordion-slider/">http://bqworks.net/accordion-slider/</a>.</p>
-    <p>Also, you can check out the <a href="https://www.youtube.com/watch?v=qmjgtmeLrzs&list=PLh-6IaZNuPo58lYbFPNV_nOzKYoOwHBKG">video tutorials</a> to understand better how the plugin works.</p>
-    
-    <p><a href="http://codecanyon.net/item/accordion-slider-responsive-wordpress-plugin/7341927">Buy the full version for only $22 &rarr;</a></p>
 </div>
