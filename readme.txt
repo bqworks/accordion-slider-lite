@@ -1,4 +1,4 @@
-=== Accordion Slider ===
+=== Accordion Slider Lite ===
 Contributors: bqworks
 Tags: accordion slider, responsive slider, responsive accordion, image accordion, accordion plugin
 Requires at least: 3.6
@@ -32,7 +32,6 @@ Available features in the lite version:
 * Unlimited panels in an accordion slider and unlimited accordion sliders
 * Localized for translation
 * No ads
-
 
 If you need more features, you can upgrade to the full version, which is now free and available for download at [http://bqworks.net/accordion-slider/](http://bqworks.net/accordion-slider/).
 
