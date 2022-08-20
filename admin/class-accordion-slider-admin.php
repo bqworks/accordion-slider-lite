@@ -586,7 +586,7 @@ class BQW_Accordion_Slider_Lite_Admin {
 
 		global $wpdb;
 
-		$wpdb->query( "DELETE FROM " . $wpdb->prefix . "options WHERE option_name LIKE '%accordion_slider_cache%'" );
+		$wpdb->query( "DELETE FROM " . $wpdb->prefix . "options WHERE option_name LIKE '%accordion_slider_cache_%' AND NOT option_name = 'accordion_slider_cache_expiry_interval'" );
 
 		echo true;
 
