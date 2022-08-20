@@ -86,6 +86,12 @@ When you select an image from the Media Library, in the right columns, under 'AT
 
 == Changelog ==
 
+= 1.5.1 =
+* fix cache clearing
+* add extra security check for user editing actions
+* update the website address
+* other minor edits
+
 = 1.5 =
 * fix styling for sidebar panels
 * update the upgrade text
