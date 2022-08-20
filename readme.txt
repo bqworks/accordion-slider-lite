@@ -33,7 +33,7 @@ Available features in the lite version:
 * Localized for translation
 * No ads
 
-If you need more features, you can upgrade to the full version, which is now free and available for download at [http://bqworks.net/accordion-slider/](http://bqworks.net/accordion-slider/).
+If you need more features, you can upgrade to the full version, which is now free and available for download at [https://bqworks.net/accordion-slider/](https://bqworks.net/accordion-slider/).
 
 Additional features in the full version:
 
@@ -49,7 +49,7 @@ Additional features in the full version:
 * Action and filter hooks
 * Import and export accordion sliders
 
-[These videos](http://bqworks.net/accordion-slider/screencasts/) demonstrate the full capabilities of the plugin.
+[These videos](https://bqworks.net/accordion-slider/screencasts/) demonstrate the full capabilities of the plugin.
 
 == Installation ==
 

@@ -1,6 +1,6 @@
 <div class="wrap accordion-slider-admin accordion-slider-upgrade">
 	<h2><?php _e( 'Upgrade to Full Version', 'accordion-slider-lite' ); ?></h2>
-    <p>If you need more features, you can upgrade to the full version, which is now free and available for download at <a href="http://bqworks.net/accordion-slider/">http://bqworks.net/accordion-slider/</a>.</p>
+    <p>If you need more features, you can upgrade to the full version, which is now free and available for download at <a href="https://bqworks.net/accordion-slider/">https://bqworks.net/accordion-slider/</a>.</p>
     
     <p>Some of the features available in the full version are:</p>
     <ul>
