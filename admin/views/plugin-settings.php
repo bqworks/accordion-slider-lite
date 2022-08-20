@@ -20,7 +20,7 @@
                     </select>
                  </td>
                 <td>
-                    <?php echo $plugin_settings['load_stylesheets']['description']; ?>
+                    <p><?php echo $plugin_settings['load_stylesheets']['description']; ?></p>
                 </td>
             </tr>
             <tr>
@@ -31,7 +31,7 @@
                     <input type="text" id="cache-expiry-interval" name="cache_expiry_interval" value="<?php echo $cache_expiry_interval; ?>"><span>hours</span>
                 </td>
                 <td>
-                    <?php echo $plugin_settings['cache_expiry_interval']['description']; ?>
+                    <p><?php echo $plugin_settings['cache_expiry_interval']['description']; ?></p>
                     <a class="button-secondary clear-all-cache" data-nonce="<?php echo wp_create_nonce( 'clear-all-cache' ); ?>"><?php _e( 'Clear all cache now', 'accordion-slider-lite' ); ?></a>
                     <span class="spinner clear-cache-spinner"></span>
                 </td>
@@ -51,7 +51,7 @@
                     </select>
                  </td>
                 <td>
-                    <?php echo $plugin_settings['access']['description']; ?>
+                    <p><?php echo $plugin_settings['access']['description']; ?></p>
                 </td>
             </tr>
         </table>
