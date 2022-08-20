@@ -13,7 +13,7 @@ class BQW_Accordion_Slider_Lite {
 	 * 
 	 * @var string
 	 */
-	const VERSION = '1.5';
+	const VERSION = '1.5.1';
 
 	/**
 	 * Plugin slug.
